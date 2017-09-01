@@ -9,6 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *txtNo;
+@property (weak, nonatomic) IBOutlet UITextField *txtName;
+@property (weak, nonatomic) IBOutlet UITextField *txtDepartment;
+@property (weak, nonatomic) IBOutlet UITextField *txtYear;
+- (IBAction)btnSave:(id)sender;
 
 
 @end
